@@ -117,9 +117,9 @@ function check_visibility() {
     $(".d-rb").addClass("animate__animated animate__rubberBand visible");
   }
 }
+
 $(document).ready(function () {
-  $("#preloader").addClass("animate__animated animate__fadeOut");
-  $("#preloader").remove();
+  jQuery('#preloader').fadeOut('slow');
   /*animate carousel-caption elements */
   check_visibility();
   /* animate features section elements */
