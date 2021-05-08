@@ -1,0 +1,106 @@
+@media (min-width: 786px) and (max-width: 1150px) {
+  .carousel-caption h3 {
+    font-size: 45px;
+  }
+
+  #works figure {
+    width: 33%;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 980px) {
+  .carousel-caption h2 {
+    font-size: 55px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 36px;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .carousel-caption h2 {
+    font-size: 35px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 22px;
+  }
+
+  .carousel-caption p {
+    font-size: 14px;
+  }
+
+  #nav {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #nav .navbar-nav {
+    align-items: flex-start !important;
+    float: none;
+  }
+
+  #nav .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navbar-brand {
+    margin-right: 0;
+  }
+
+  .navbar-toggler {
+    padding-right: 0;
+    padding-top: 5px;
+  }
+
+  #nav li {
+    display: block;
+    width: 100%;
+  }
+
+  #nav .navbar-nav li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .feature {
+    justify-content: center;
+    text-align: center !important;
+    padding-bottom: 30px;
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .feature-body {
+    width: 75%;
+  }
+
+  #works p {
+    font-size: 14px;
+  }
+
+  #works figure {
+    width: 100%;
+  }
+
+  #discuss .social-media-links{
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  #discuss .social-media-links i{
+    margin: 10px;
+  }
+
+}
+
+@media (min-width: 452px) and (max-width: 786px) {
+  #works figure {
+    width: 50%;
+    padding: 0;
+  }
+}
