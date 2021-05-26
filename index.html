@@ -531,7 +531,7 @@
                     <p>(401) 1234 567</p>
                 </div>
                 <div class="col-md-8 d-fu hidden">
-                    <form method="POST" action="#">
+                    <form id="contact-form" method="POST" onsubmit="return validateForm()" novalidate>
                         <h3 style="font-weight: 700;">Say hello!</h3>
                         <div class="input-group justify-content-between">
                             <div class="col-6 input-field">
@@ -614,4 +614,5 @@
     <script src="js\bootstrap.min.js"></script>
     <!-- custom javascript -->
     <script src="js\main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
 </body>
