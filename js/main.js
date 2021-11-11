@@ -118,12 +118,10 @@ function check_visibility() {
   }
 }
 
-document.onreadystatechange = completeLoading;
-function completeLoading() {
-  if (document.readyState == "complete") {
-      $('#preloader').fadeOut(500, function(){ $('#preloader').remove(); } );
-  }
+window.onload = () => {
+  $('#preloader').fadeOut('slow');
 }
+
 $(document).ready(function () {
   /*animate carousel-caption elements */
   check_visibility();
