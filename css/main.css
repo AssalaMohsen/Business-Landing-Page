@@ -142,7 +142,6 @@ section .line-break:after {
     padding: 0;
 }
 
-
 #nav .navbar-nav li a {
     border-top: 1px solid transparent;
     padding: 15px;
@@ -308,19 +307,6 @@ ul .active a {
     border-radius: 6px;
 }
 
-#works figure img {
-    display: block;
-    height: auto;
-    max-width: 100%;
-}
-
-#works figure {
-    float: left;
-    width: 25%;
-    position: relative;
-    margin: 0;
-}
-
 .overlay {
     background-color: rgba(14, 180, 147, .9);
     text-align: center;
@@ -344,7 +330,11 @@ ul .active a {
     transform: rotateY(180deg) scale(0.5, 0.5);
 }
 
-figure:hover .overlay {
+.item-wrap{
+    position: relative;
+}
+
+.item-wrap:hover .overlay {
     opacity: 1;
 
     -webkit-transform: rotateY(0deg) scale(1, 1);

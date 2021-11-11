@@ -2,10 +2,6 @@
   .carousel-caption h3 {
     font-size: 45px;
   }
-
-  #works figure {
-    width: 33%;
-  }
 }
 
 @media (min-width: 767px) and (max-width: 980px) {
@@ -82,9 +78,6 @@
     font-size: 14px;
   }
 
-  #works figure {
-    width: 100%;
-  }
 
   #discuss .social-media-links{
     flex-direction: row;
@@ -96,11 +89,4 @@
     margin: 10px;
   }
 
-}
-
-@media (min-width: 452px) and (max-width: 786px) {
-  #works figure {
-    width: 50%;
-    padding: 0;
-  }
 }
