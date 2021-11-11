@@ -129,5 +129,12 @@ $(document).ready(function () {
   $(window).scroll(function () {
     check_visibility();
   });
+
+  $(".menu li").click(function (e) {
+    e.preventDefault();
+    $('.menu li').removeClass('active');
+    $(this).addClass('active');
+  });
+  
 });
 
